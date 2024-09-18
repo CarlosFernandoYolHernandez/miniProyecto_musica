@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css\estilos.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="prub.html">Musica</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="prub.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="artistas.html">Artistas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Generos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="rock.html">Rock</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="pop.html">Pop</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="hp.html">Rap/Hip Hop</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://wallpaperset.com/w/full/d/3/7/49240.jpg" class="d-block w-100" class="img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Rock</h2>
+            <p>Género musical que surgió en la década de 1950, <br> caracterizado por el uso de guitarras eléctricas,
+              ritmos enérgicos y letras diversas.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.musicaimg.com/articulos/musica-pop.jpg" class="d-block w-100" class="img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Pop</h2>
+            <p>Género musical popular que se caracteriza por melodías pegajosas, <br>estructuras simples y producción
+              pulida.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.pinimg.com/564x/dd/0d/37/dd0d379d7685c99f195eed0a9393bb53.jpg" class="d-block w-100"
+            class="img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Rap/Hip Hop</h2>
+            <p>Género musical que se centra en el ritmo y la rima.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="music my-5">
+    <h2 class="text-center my-5">¿Qué es la musica?</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <p>
+            La música es una forma de arte que combina sonidos y silencios para crear una experiencia estética. Se
+            compone de elementos como melodía, armonía, ritmo y timbre. A lo largo de la historia, la música ha sido una
+            forma de expresión cultural, emocional y social, y puede variar ampliamente en estilos y géneros. Es
+            utilizada en celebraciones, rituales, entretenimiento y como medio de comunicación.
+          </p>
+        </div>
+        <div class="col-6">
+          <img class="img-fluid" src="https://i.pinimg.com/originals/6b/9a/78/6b9a780480700a3fa34a6a486d6d15e5.jpg"
+            alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="music my-5">
+    <h2 class="text-center my-5">¿Como surge?</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.qyHwBZy86jmonfQehFv92AHaFN?rs=1&pid=ImgDetMain" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Origen Prehistorico</h5>
+              <p class="card-text text-center">La música probablemente comenzó con sonidos naturales y
+                vocalizaciones humanas. Los primeros instrumentos, como flautas de hueso, se han encontrado en restos
+                arqueológicos, sugiriendo que la música ha sido parte de la cultura humana desde hace miles de años.</p>
+              <a href="#" class="btn btn-primary text-center">Ver Más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <img src="data:image/jpeg;base64,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" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Desarrollo cultural</h5>
+              <p class="card-text text-center">A medida que las civilizaciones evolucionaron, también lo hizo la música.
+                Se comenzaron a crear sistemas de notación y diferentes géneros musicales, reflejando las creencias,
+                tradiciones y emociones de cada cultura.</p>
+              <a href="#" class="btn btn-primary text-center">Ver Más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card"></div>
+          <img src="https://th.bing.com/th/id/OIP.8WCqabwLwNsS8O-fpJNNCwHaEJ?rs=1&pid=ImgDetMain" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Innovaciones Tecnologicas</h5>
+            <p class="card-text text-center">Con la invención de instrumentos más complejos y, posteriormente, la
+              tecnología de grabación y transmisión, la música se diversificó aún más, permitiendo que estilos y géneros
+              se mezclaran y llegaran a audiencias globales.</p>
+            <a href="#" class="btn btn-primary text-center">Ver Más</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+  </section>
+  <footer class="text-center py-3">
+    &copy; Carlos Fernando Yol Hernández - Todos los Derechos Reservados
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
